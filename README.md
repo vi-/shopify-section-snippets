@@ -1,4 +1,4 @@
-# Shopify Section Settings
+# Shopify Section Schema Snippets
 
 VSCode / Cursor snippets for Shopify Section schema input types.
 
