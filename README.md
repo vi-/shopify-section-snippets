@@ -2,6 +2,8 @@
 
 VSCode / Cursor snippets for Shopify Section schema input types.
 
+[Shopify Docs](https://shopify.dev/docs/storefronts/themes/architecture/settings/input-settings)
+
 ## Installation
 
 1. Copy contents of `liquid.json` into your clipboard.
