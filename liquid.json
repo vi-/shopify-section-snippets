@@ -1,4 +1,91 @@
 {
+  "Section Settings Checkbox": {
+    "prefix": [
+      "sscheckbox",
+      "sscheck",
+      "ssc"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"checkbox\",",
+      "  \"id\": \"${1:checkbox}\",",
+      "  \"label\": \"${2:Checkbox label}\",",
+      "  \"default\": ${3:true}",
+      "}"
+    ],
+    "description": "Section Settings - Checkbox"
+  },
+  "Section Settings Number": {
+    "prefix": [
+      "ssnumber",
+      "ssn"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"number\",",
+      "  \"id\": \"${1:number}\",",
+      "  \"label\": \"${2:Number input}\",",
+      "  \"default\": ${3:5}",
+      "}"
+    ],
+    "description": "Section Settings - Number input"
+  },
+  "Section Settings Radio": {
+    "prefix": [
+      "ssradio",
+      "ssr"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"radio\",",
+      "  \"id\": \"${1:radio_input}\",",
+      "  \"label\": \"${2:Radio buttons}\",",
+      "  \"options\": [",
+      "      { \"value\": \"${3:option_1}\", \"label\": \"${4:Option 1}\" },",
+      "      { \"value\": \"${5:option_2}\", \"label\": \"${6:Option 2}\" }",
+      "  ]",
+      "}"
+    ],
+    "description": "Section Settings - Radio buttons"
+  },
+  "Section Settings Range Slider": {
+    "prefix": [
+      "ssrange",
+      "ssrs"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"range\",",
+      "  \"id\": \"${1:range_slider}\",",
+      "  \"min\": ${2:1},",
+      "  \"max\": ${3:100},",
+      "  \"step\": ${4:10},",
+      "  \"unit\": \"${5:px}\",",
+      "  \"label\": \"${6:Range slider (useful for sizes etc.)}\",",
+      "  \"default\": ${7:50}",
+      "}"
+    ],
+    "description": "Section Settings - Range Slider"
+  },
+  "Section Settings Select": {
+    "prefix": [
+      "ssselect",
+      "sss"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"select\",",
+      "  \"id\": \"${1:select}\",",
+      "  \"label\": \"${2:Select box}\",",
+      "  \"options\": [",
+      "      { \"value\": \"${3:option_1}\", \"label\": \"${4:Option 1}\" },",
+      "      { \"value\": \"${5:option_2}\", \"label\": \"${6:Option 2}\" },",
+      "      { \"value\": \"${7:option_2}\", \"label\": \"${8:Option 2}\" }",
+      "  ]",
+      "}"
+    ],
+    "description": "Section Settings - Select box"
+  },
   "Section Settings Text": {
     "prefix": [
       "sstext",
@@ -29,92 +116,46 @@
     ],
     "description": "Section Settings - Textarea"
   },
-  "Section Settings Radio": {
+  "Section Settings Article": {
     "prefix": [
-      "ssradio",
-      "ssr"
+      "ssarticle",
+      "ssart"
     ],
     "body": [
       "{",
-      "  \"type\": \"radio\",",
-      "  \"id\": \"${1:radio_input}\",",
-      "  \"label\": \"${2:Radio buttons}\",",
-      "  \"options\": [",
-      "      { \"value\": \"${3:option_1}\", \"label\": \"${4:Option 1}\" },",
-      "      { \"value\": \"${5:option_2}\", \"label\": \"${6:Option 2}\" }",
-      "  ]",
+      "  \"type\": \"article\",",
+      "  \"id\": \"${1:article}\",",
+      "  \"label\": \"${2:Article picker}\"",
       "}"
     ],
-    "description": "Section Settings - Radio buttons"
+    "description": "Section Settings - Article picker"
   },
-  "Section Settings Select": {
+  "Section Settings Blog": {
     "prefix": [
-      "ssselect",
-      "sss"
+      "ssblog"
     ],
     "body": [
       "{",
-      "  \"type\": \"select\",",
-      "  \"id\": \"${1:select}\",",
-      "  \"label\": \"${2:Select box}\",",
-      "  \"options\": [",
-      "      { \"value\": \"${3:option_1}\", \"label\": \"${4:Option 1}\" },",
-      "      { \"value\": \"${5:option_2}\", \"label\": \"${6:Option 2}\" },",
-      "      { \"value\": \"${7:option_2}\", \"label\": \"${8:Option 2}\" }",
-      "  ]",
+      "  \"type\": \"blog\",",
+      "  \"id\": \"${1:blog}\",",
+      "  \"label\": \"${2:Blog Picker}\"",
       "}"
     ],
-    "description": "Section Settings - Select box"
+    "description": "Section Settings - Blog picker"
   },
-  "Section Settings Checkbox": {
+  "Section Settings Collections": {
     "prefix": [
-      "sscheckbox",
-      "sscheck",
-      "ssc"
+      "sscollection",
+      "sscols"
     ],
     "body": [
       "{",
-      "  \"type\": \"checkbox\",",
-      "  \"id\": \"${1:checkbox}\",",
-      "  \"label\": \"${2:Checkbox label}\",",
-      "  \"default\": ${3:true}",
+      "  \"type\": \"collection\",",
+      "  \"id\": \"${1:collection}\",",
+      "  \"label\": \"${2:Collection Picker}\"",
       "}"
     ],
-    "description": "Section Settings - Checkbox"
-  },
-  "Section Settings Range Slider": {
-    "prefix": [
-      "ssrange",
-      "ssrs"
-    ],
-    "body": [
-      "{",
-      "  \"type\": \"range\",",
-      "  \"id\": \"${1:range_slider}\",",
-      "  \"min\": ${2:1},",
-      "  \"max\": ${3:100},",
-      "  \"step\": ${4:10},",
-      "  \"unit\": \"${5:px}\",",
-      "  \"label\": \"${6:Range slider (useful for sizes etc.)}\",",
-      "  \"default\": ${7:50}",
-      "}"
-    ],
-    "description": "Section Settings - Range Slider"
-  },
-  "Section Settings Number": {
-    "prefix": [
-      "ssnumber",
-      "ssn"
-    ],
-    "body": [
-      "{",
-      "  \"type\": \"number\",",
-      "  \"id\": \"${1:number}\",",
-      "  \"label\": \"${2:Number input}\",",
-      "  \"default\": ${3:5}",
-      "}"
-    ],
-    "description": "Section Settings - Number input"
+    "description": "Section Settings - Collection picker"
   },
   "Section Settings Color": {
     "prefix": [
@@ -146,60 +187,34 @@
     ],
     "description": "Section Settings - Font picker"
   },
-  "Section Settings Collections": {
+  "Section Settings HTML": {
     "prefix": [
-      "sscollection",
-      "sscols"
+      "sshtml"
     ],
     "body": [
       "{",
-      "  \"type\": \"collection\",",
-      "  \"id\": \"${1:collection}\",",
-      "  \"label\": \"${2:Collection Picker}\"",
+      "  \"type\": \"html\",",
+      "  \"id\": \"${1:html}\",",
+      "  \"label\": \"${2:Custom HTML input}\",",
+      "  \"default\": \"${3:<div><p>Some HTML content</p></div>}\"",
       "}"
     ],
-    "description": "Section Settings - Collection picker"
+    "description": "Section Settings - HTML"
   },
-  "Section Settings Products": {
+  "Section Settings Image Picker": {
     "prefix": [
-      "ssproducts",
-      "ssprod"
+      "ssimagepicker",
+      "ssimage",
+      "ssimg"
     ],
     "body": [
       "{",
-      "  \"type\": \"product\",",
-      "  \"id\": \"${1:product}\",",
-      "  \"label\": \"${2:Product Picker}\"",
+      "  \"type\": \"image_picker\",",
+      "  \"id\": \"${1:image}\",",
+      "  \"label\": \"${2:Image picker}\"",
       "}"
     ],
-    "description": "Section Settings - Product picker"
-  },
-  "Section Settings Blog": {
-    "prefix": [
-      "ssblog"
-    ],
-    "body": [
-      "{",
-      "  \"type\": \"blog\",",
-      "  \"id\": \"${1:blog}\",",
-      "  \"label\": \"${2:Blog Picker}\"",
-      "}"
-    ],
-    "description": "Section Settings - Blog picker"
-  },
-  "Section Settings Page": {
-    "prefix": [
-      "sspage",
-      "sspg"
-    ],
-    "body": [
-      "{",
-      "  \"type\": \"page\",",
-      "  \"id\": \"${1:page}\",",
-      "  \"label\": \"${2:Page Picker}\"",
-      "}"
-    ],
-    "description": "Section Settings - Page picker"
+    "description": "Section Settings - Image picker"
   },
   "Section Settings Link List": {
     "prefix": [
@@ -215,6 +230,50 @@
       "}"
     ],
     "description": "Section Settings - Navigation picker"
+  },
+  "Section Settings Page": {
+    "prefix": [
+      "sspage",
+      "sspg"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"page\",",
+      "  \"id\": \"${1:page}\",",
+      "  \"label\": \"${2:Page Picker}\"",
+      "}"
+    ],
+    "description": "Section Settings - Page picker"
+  },
+  "Section Settings Product": {
+    "prefix": [
+      "ssproduct",
+      "ssprod"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"product\",",
+      "  \"id\": \"${1:product}\",",
+      "  \"label\": \"${2:Product Picker}\"",
+      "}"
+    ],
+    "description": "Section Settings - Product picker"
+  },
+  "Section Settings Richtext": {
+    "prefix": [
+      "ssrichtext",
+      "ssrte",
+      "ssrich"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"richtext\",",
+      "  \"id\": \"${1:richtext}\",",
+      "  \"label\": \"${2:Richtext editor}\",",
+      "  \"default\": \"${3:<p>Default <em>richtext</em> <a href=\\\"https://example.com/\\\">content</a></p>}\"",
+      "}"
+    ],
+    "description": "Section Settings - Richtext"
   },
   "Section Settings URL": {
     "prefix": [
@@ -248,64 +307,5 @@
       "}"
     ],
     "description": "Section Settings - Video URL"
-  },
-  "Section Settings Richtext": {
-    "prefix": [
-      "ssrichtext",
-      "ssrte",
-      "ssrich"
-    ],
-    "body": [
-      "{",
-      "  \"type\": \"richtext\",",
-      "  \"id\": \"${1:richtext}\",",
-      "  \"label\": \"${2:Richtext editor}\",",
-      "  \"default\": \"${3:<p>Default <em>richtext</em> <a href=\\\"https://example.com/\\\">content</a></p>}\"",
-      "}"
-    ],
-    "description": "Section Settings - Richtext"
-  },
-  "Section Settings HTML": {
-    "prefix": [
-      "sshtml"
-    ],
-    "body": [
-      "{",
-      "  \"type\": \"html\",",
-      "  \"id\": \"${1:html}\",",
-      "  \"label\": \"${2:Custom HTML input}\",",
-      "  \"default\": \"${3:<div><p>Some HTML content</p></div>}\"",
-      "}"
-    ],
-    "description": "Section Settings - HTML"
-  },
-  "Section Settings Article": {
-    "prefix": [
-      "ssarticle",
-      "ssart"
-    ],
-    "body": [
-      "{",
-      "  \"type\": \"article\",",
-      "  \"id\": \"${1:article}\",",
-      "  \"label\": \"${2:Article picker}\"",
-      "}"
-    ],
-    "description": "Section Settings - Article picker"
-  },
-  "Section Settings Image Picker": {
-    "prefix": [
-      "ssimagepicker",
-      "ssimage",
-      "ssimg"
-    ],
-    "body": [
-      "{",
-      "  \"type\": \"image_picker\",",
-      "  \"id\": \"${1:image}\",",
-      "  \"label\": \"${2:Image picker}\"",
-      "}"
-    ],
-    "description": "Section Settings - Image picker"
   }
 }
