@@ -31,27 +31,27 @@ EG. type `sstext` and hit `TAB`, it will expand to:
 
 All snippets are prefixed with `ss` (section settings)and then the type of input.
 
-Full list of snippets:
+### Full list of snippets:
 
-```
-sstext
-sstextarea
-ssradio
-ssselect
-sscheckbox
-ssrange
-ssnumber
-sscolor
-ssfont
-sscollection
-ssproducts
-ssblog
-sspage
-sslinklist
-ssurl
-ssvideourl
-ssrichtext
-sshtml
-ssarticle
-ssimage
-```
+| Input setting | shortcode     |
+| ------------- | ------------- |
+| checkbox      | sscheckbox    |
+| number        | ssnumber      |
+| radio         | ssradio       |
+| range         | ssrange       |
+| select        | ssselect      |
+| text          | sstext        |
+| textarea      | sstextarea    |
+| article       | ssarticle     |
+| blog          | ssblog        |
+| collection    | sscollection  |
+| color         | sscolor       |
+| font_picker   | ssfont        |
+| html          | sshtml        |
+| image_picker  | ssimagepicker |
+| link_list     | sslinklist    |
+| page          | sspage        |
+| product       | ssproduct     |
+| richtext      | ssrichtext    |
+| url           | ssurl         |
+| video_url     | ssvideourl    |
