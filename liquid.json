@@ -321,6 +321,22 @@
     ],
     "description": "Section Settings - Metaobject"
   },
+  "Section Settings Metaobject List": {
+    "prefix": [
+      "ssmetaobjectlist",
+      "ssmetaobjlist"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"metaobject_list\",",
+      "  \"id\": \"${1:metaobject_list}\",",
+      "  \"label\": \"${2:Materials}\",",
+      "  \"metaobject_type\": \"${3:shopify--material}\",",
+      "  \"limit\": ${4:10}",
+      "}"
+    ],
+    "description": "Section Settings - Metaobject List"
+  },
   "Section Settings Page": {
     "prefix": [
       "sspage",
