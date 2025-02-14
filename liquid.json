@@ -187,6 +187,21 @@
     ],
     "description": "Section Settings - Colour picker"
   },
+  "Section Settings Color Background": {
+    "prefix": [
+      "sscolbackground",
+      "sscolbg"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"color_background\",",
+      "  \"id\": \"${1:color_background}\",",
+      "  \"label\": \"${2:Colour Background}\",",
+      "  \"default\": \"${3:linear-gradient(#ffffff, #000000)}\"",
+      "}"
+    ],
+    "description": "Section Settings - Colour Background"
+  },
   "Section Settings Font": {
     "prefix": [
       "ssfont",
