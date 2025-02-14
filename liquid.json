@@ -202,6 +202,21 @@
     ],
     "description": "Section Settings - Colour Background"
   },
+  "Section Settings Color Scheme": {
+    "prefix": [
+      "sscolorscheme",
+      "sscolorscheme"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"color_scheme\",",
+      "  \"id\": \"${1:color_scheme}\",",
+      "  \"label\": \"${2:Colour Scheme}\",",
+      "  \"default\": \"${3:scheme_1}\"",
+      "}"
+    ],
+    "description": "Section Settings - Colour Scheme"
+  },
   "Section Settings Font": {
     "prefix": [
       "ssfont",
