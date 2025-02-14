@@ -396,6 +396,21 @@
     ],
     "description": "Section Settings - Richtext"
   },
+  "Section Settigns Text Alignment": {
+    "prefix": [
+      "sstextalignment",
+      "sstextalign"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"text_alignment\",",
+      "  \"id\": \"${1:text_alignment}\",",
+      "  \"label\": \"${2:Text Alignment}\",",
+      "  \"default\": \"${3:center}\"",
+      "}"
+    ],
+    "description": "Section Settings - Text Alignment"
+  },
   "Section Settings URL": {
     "prefix": [
       "ssurl",
