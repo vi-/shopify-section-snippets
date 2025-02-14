@@ -425,6 +425,20 @@
     ],
     "description": "Section Settings - URL picker"
   },
+  "Section Settings Video": {
+    "prefix": [
+      "ssvideo",
+      "ssvid"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"video\",",
+      "  \"id\": \"${1:video}\",",
+      "  \"label\": \"${2:A Shopify-hosted video}\"",
+      "}"
+    ],
+    "description": "Section Settings - Video picker"
+  },
   "Section Settings Video URL": {
     "prefix": [
       "ssvideourl",
