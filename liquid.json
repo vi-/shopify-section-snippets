@@ -306,6 +306,21 @@
     ],
     "description": "Section Settings - Liquid"
   },
+  "Section Settings Metaobject": {
+    "prefix": [
+      "ssmetaobject",
+      "ssmetaobj"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"metaobject\",",
+      "  \"id\": \"${1:metaobject}\",",
+      "  \"label\": \"${2:Material}\",",
+      "  \"metaobject_type\": \"${3:shopify--material}\",",
+      "}"
+    ],
+    "description": "Section Settings - Metaobject"
+  },
   "Section Settings Page": {
     "prefix": [
       "sspage",
