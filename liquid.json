@@ -157,6 +157,21 @@
     ],
     "description": "Section Settings - Collection picker"
   },
+  "Section Settings Collection List": {
+    "prefix": [
+      "sscollectionlist",
+      "sscollist"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"collection_list\",",
+      "  \"id\": \"${1:collection_list}\",",
+      "  \"label\": \"${2:Collection List}\"",
+      "  \"limit\": ${3:10}",
+      "}"
+    ],
+    "description": "Section Settings - Collection List"
+  },
   "Section Settings Color": {
     "prefix": [
       "sscolor",
