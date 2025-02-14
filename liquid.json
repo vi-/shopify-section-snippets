@@ -261,6 +261,21 @@
     ],
     "description": "Section Settings - Image picker"
   },
+  "Section Settings Inline Rich Text": {
+    "prefix": [
+      "ssinline",
+      "ssinl"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"inline_richtext\",",
+      "  \"id\": \"${1:inline_richtext}\",",
+      "  \"label\": \"${2:Inline Rich Text}\",",
+      "  \"default\": \"${3:my <i>inline</i> <b>text</b>}\"",
+      "}"
+    ],
+    "description": "Section Settings - Inline Rich Text"
+  },
   "Section Settings Link List": {
     "prefix": [
       "sslinklist",
