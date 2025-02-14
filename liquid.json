@@ -291,6 +291,21 @@
     ],
     "description": "Section Settings - Navigation picker"
   },
+  "Section Settings Liquid": {
+    "prefix": [
+      "ssliquid",
+      "ssliq"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"liquid\",",
+      "  \"id\": \"${1:liquid}\",",
+      "  \"label\": \"${2:Liquid}\",",
+      "  \"default\": \"${3:{% if product.tags contains 'new' %}NEW PRODUCT{% endif %}}\"",
+      "}"
+    ],
+    "description": "Section Settings - Liquid"
+  },
   "Section Settings Page": {
     "prefix": [
       "sspage",
