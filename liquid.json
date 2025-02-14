@@ -365,6 +365,21 @@
     ],
     "description": "Section Settings - Product picker"
   },
+  "Section Settings Product List": {
+    "prefix": [
+      "ssproductlist",
+      "ssprodlist"
+    ],
+    "body": [
+      "{",
+      "  \"type\": \"product_list\",",
+      "  \"id\": \"${1:product_list}\",",
+      "  \"label\": \"${2:Products}\",",
+      "  \"limit\": ${3:10}",
+      "}"
+    ],
+    "description": "Section Settings - Product List"
+  },
   "Section Settings Richtext": {
     "prefix": [
       "ssrichtext",
